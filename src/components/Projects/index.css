@@ -1,0 +1,58 @@
+.list-style {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    
+  }
+  
+  .projectImage {
+    width: 150px;
+  }
+
+  .deployLink {
+    background-color: #22c7f5;
+    border-radius: 8px;
+    height: 40px;
+    width: 120px;
+    border:none;
+    box-shadow: 2px 1px 0px 0px #013a4a;
+  }
+
+  .deleteButton {
+    background-color: red;
+    border-radius: 8px;
+    height: 40px;
+    width: 120px;
+    border:none;
+    box-shadow: 2px 1px 0px 0px #013a4a;
+    
+  }
+  .buttons-conatianer {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+
+  @media screen and (max-width:767px ) {
+    .buttons-conatianer {
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+       
+    }
+    .deleteButton {
+        width: 80px;
+        font-size: 10px;
+    }
+    .deployLink {
+
+        width: 80px;
+        font-size: 10px;
+    }
+    
+    
+  }
+  hr {
+    width: 100%;
+  }
